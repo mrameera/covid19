@@ -6,10 +6,13 @@ import AppRoutre from './src/AppRouter';
 import Register from "./src/auth/Register";
 import Dashboard from './src/dashbord/Dashbord';
 import Map from './src/map/Map';
+import Prevention from "./src/prevention/Prevention";
+import Food from "./src/food/Food";
+import EmergencyNumbers from "./src/emargencyCalls/EmergencyNumbers";
 export default function App() {
   return (
    // <View  style ={styles.container}>
-      <Map />
+      <EmergencyNumbers />
    //  </View>
   );
 }
